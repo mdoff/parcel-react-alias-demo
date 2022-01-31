@@ -1,0 +1,21 @@
+{
+  "name": "parcel-react-alias-demo",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:mdoff/parcel-react-alias-demo.git",
+  "author": "Tomasz Lewinski <mdoff@mdoff.net>",
+  "license": "MIT",
+  "source": "./index.html",
+  "alias": {
+    "@components/*": "./src/components/$1"
+  },
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "parcel": "^2.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
